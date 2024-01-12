@@ -1,0 +1,75 @@
+body{
+    background-color: deepskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+}
+
+header{
+    grid-area: h;
+}
+
+article{
+    grid-area: ar;
+    text-align: right;
+    float: right;
+    font-size: 16px;
+}
+
+aside{
+    grid-area: as;
+}
+
+footer{
+    grid-row: f;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    ' h h '
+    'as ar'
+    ' f f'
+    ;
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+nav{
+    font-size: 12px;
+    width: 200px;
+}
+
+nav li{
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid #000; 
+    padding: 10px; 
+    background-color: rgb(163, 163, 163);
+}
+
+nav h3{
+    background-color: silver;
+}
+
+header img{
+    height: 300px;
+    width: 1000px;
+}
+
+#shadow{
+    background-color: black;
+}
+
+#knuckles{
+    background-color: red;
+}
+
+#tails{
+    background-color: yellow;
+}
+
+#amy{
+    background-color: pink;
+}
